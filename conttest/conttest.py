@@ -24,7 +24,8 @@ def include_file_in_checks(path, excludes):
     file has an undesired prefix, an undesired file extension, or
     lives in an undesired directory.
     """
-    IGNORE_PREFIXES = ('.', '#')
+    #IGNORE_PREFIXES = ('.', '#')
+    IGNORE_PREFIXES = ('#')
     IGNORE_EXTENSIONS = ('pyc', 'pyo', '_flymake.py')
     IGNORE_DIRS = ('.git', '.hg', '.svn')
 
